@@ -1,0 +1,24 @@
+{
+    "baseUrl": "./cypress",
+    "include": [
+      "./**/*.ts",
+      "integration/*.ts",
+      "support/*.ts",
+      "../node_modules/cypress"
+    ],
+    "exclude": [],
+    "compilerOptions": {
+      "types": ["cypress", "node"],
+      "lib": ["es2017", "dom", "es2015"],
+      "isolatedModules": false,
+      "allowJs": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": false,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true
+    }
+  }
+  
