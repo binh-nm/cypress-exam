@@ -1,7 +1,5 @@
 Feature: Amazon exam
 
-  Background: Testing
-
     Scenario: User visit Amazon web page then search for an item
 
       Given User visits the Amazon home page
